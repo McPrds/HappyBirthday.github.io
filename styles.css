@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffefef; /* Romantic background color */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px; /* Set a maximum width for larger screens */
+    width: 100%;
+}
+
+.message {
+    font-size: 18px;
+    color: #d9534f; /* Romantic text color */
+}
+
+#surprise-box {
+    width: 150px;
+    height: 150px;
+    background-color: #ffd700;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: none;
+}
+
+button {
+    background-color: #e57373; /* Romantic button color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#gift-box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    cursor: pointer;
+}
+
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    .message {
+        font-size: 16px;
+    }
+}
